@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+
     <title>CONTACTANOS</title>
 </head>
 <body>
@@ -11,28 +13,28 @@
      <nav class="nav">
         <ul>
             <li class="list active">
-                <a href="https://kevinsrdeveloper.github.io/DemoSystem">
+                <a href="/index.html">
                     <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
                     <span class="text">Inicio</span>
                 </a>
             </li>
 
             <li class="list">
-                <a href="https://kevinsrdeveloper.github.io/DemoSystem/pages/nosotros.html">
+                <a href="/pages/nosotros.html">
                     <span class="icon"><ion-icon name="people-circle-outline"></ion-icon></span>
                     <span class="text">Nosotros</span>
                 </a>
             </li>
 
             <li class="list">
-                <a href="https://kevinsrdeveloper.github.io/DemoSystem/pages/servicios.html">
+                <a href="/pages/servicios.html">
                     <span class="icon"><ion-icon name="hammer-outline"></ion-icon></span>
                     <span class="text">Servicios</span>
                 </a>
             </li>
 
             <li class="list">
-                <a href="https://kevinsrdeveloper.github.io/DemoSystem/pages/servicios.html">
+                <a href="/pages/contactanos.html">
                     <span class="icon"><ion-icon name="mail-open-outline"></ion-icon></span>
                     <span class="text">Contactanos</span>
                 </a>
@@ -62,26 +64,26 @@
                 </div>
 
             </div>
-            <form action="" class="form-contact">
+            <form action="" class="form-contact" id="formSystem" method="post">
                 <div class="grupo-inputs">
                     <label for="nombre">Nombre Completo</label>
-                    <input type="text">
+                    <input type="text" name="nombre" required>
                 </div>
                 <div class="grupo-inputs">
                     <label for="correo">Correo Electronico</label>
-                    <input type="mail">
+                    <input type="mail" name="mail" required>
                 </div>
                 <div class="grupo-inputs">
                     <label for="numero">Numero Contacto</label>
-                    <input type="text">
+                    <input type="text" name="telefono" required>
                 </div>
                 <div class="grupo-inputs">
                     <label for="numero">Asunto</label>
-                    <input type="text">
+                    <input type="text" name="asunto" required>
                 </div>
                 <div class="grupo-inputs input-mesaje">
                     <label for="mensaje">Mensaje</label>
-                    <textarea name="" id="" ></textarea>
+                    <textarea name="" id="" name="mensaje"></textarea>
                 </div>
                 <div class="buttons-form">
                     <button type="submit">Enviar</button>
@@ -90,6 +92,8 @@
             </form>
 
         </article>
+
+        <script src="../js/form.js"></script>
 
     </section>
 
@@ -127,7 +131,7 @@
 
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
