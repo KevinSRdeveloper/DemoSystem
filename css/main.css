@@ -51,8 +51,8 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background-image: url(../assets/NavBar.png);
-      background-size: 100% 350px;
+      background-image: url(../assets/background-nav.png);
+      background-size: 100% 40vh;
       background-repeat: no-repeat;
     
   }
@@ -87,20 +87,19 @@
 
   .nav{
     width: 100%;
-    height: 8vh;
+    height: 10vh;
     position: sticky;
     top: 0; 
     border-top: 3px solid #f6ff00fd;
     border-bottom: 3px solid #f6ff00;
     background-color: #171717;
-  
     z-index: 99;
 
 }
 
 .nav ul{
     display: flex;
-    gap: 55px;
+    gap: 100px;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -137,8 +136,9 @@
 
 .nav ul li a .icon{
     position: relative;
-    font-size: 1em;
+    font-size: 1.8em;
     transition: 0.5s;
+  
     color: #f6ff00
 }
 
@@ -147,9 +147,10 @@
    
     color: #f6ff00;
     font-weight: 400;
-    font-size: 0.75em;
+    font-size: 1em;
     letter-spacing: 0.05em;
     transition: 0.5s;
+    margin-left: 1em;
   
 }
 
@@ -1195,6 +1196,107 @@
       
       }
 
+      /*PRIVACIDAD*/
+       /*pagina de politica*/
+
+       .title-politicas{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+      }
+
+      .art-politica{
+        width: 95%;
+        height: 100vh;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        
+      }
+
+      .politica{
+          width: 30%;
+          height: 90%;
+          display: flex;
+          align-items: center;
+          padding: 1rem;
+          background-color: #171717;
+      }
+
+      .politica p{
+        font-size: 1.5rem;
+        color: #b88703;
+      }
+
+      .politica-uso{
+        width: 70%;
+        height: 90%;
+        background-color: bisque;
+      }
+
+      .acordeon {
+        width: 100%;
+        
+        padding: 2rem;
+        color: var(--negro);
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        border-radius: 1rem;
+        background-color: #f3f3f3;
+        -webkit-box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+                box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+      }
+      
+      .acordeon .bloque {
+        margin: 0 0 1rem;
+        padding: 1rem;
+        color: var(--negro);
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        border-radius: 1rem;
+        background-color: var(--blanco);
+        -webkit-box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+                box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+      }
+      
+      .acordeon .h2 {
+        margin: 0 0 1rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+        color: var(--negro);
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        border-radius: 1rem;
+        background-color: var(--blanco);
+        -webkit-box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+                box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+        cursor: pointer;
+      }
+      .acordeon .h2:hover {
+        color: #b88703;
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        background-color: #171717;
+        -webkit-box-shadow: 0 0 0 transparent, 0 0 0 transparent, inset 0.4rem 0.4rem 0.8rem var(--sombra-ppal), inset -0.4rem -0.4rem 0.8rem var(--sombra-sec);
+                box-shadow: 0 0 0 transparent, 0 0 0 transparent, inset 0.4rem 0.4rem 0.8rem var(--sombra-ppal), inset -0.4rem -0.4rem 0.8rem var(--sombra-sec);
+      }
+      
+      .acordeon .contenido {
+        height: 0;
+        padding: 0rem;
+        overflow: hidden;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+      }
+      
+      .acordeon .bloque.activo .contenido {
+        height: auto;
+        font-size: 0.8rem;
+      }
+
 
 
 
@@ -1214,8 +1316,8 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background-image: url(../assets/NavBar.png);
-      background-size: 100% 350px;
+      background-image: url(../assets/background-nav.png);
+      background-size: 100% 40vh;
       background-repeat: no-repeat;
     
   }
@@ -1251,20 +1353,19 @@
 
   .nav{
     width: 100%;
-    height: 8vh;
+    height: 10vh;
     position: sticky;
     top: 0; 
     border-top: 2px solid #f8f81a;
     border-bottom: 2px solid #FFFF00;
     background-color: #171717;
-    
     z-index: 99;
 
 }
 
 .nav ul{
     display: flex;
-    gap: 55px;
+    gap: 100px;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -1290,7 +1391,7 @@
     text-align: center;
     font-weight: 500;
     text-decoration: none;
-   ;
+   
     
 }
 
@@ -1301,7 +1402,7 @@
 
 .nav ul li a .icon{
     position: relative;
-    font-size: 1em;
+    font-size: 1.5em;
     transition: 0.5s;
     color: #f6ff00
 }
@@ -1311,8 +1412,9 @@
    
     color: #f6ff00;
     font-weight: 400;
-    font-size: 0.75em;
+    font-size: 0.9em;
     letter-spacing: 0.05em;
+    margin-left: 1em;
     transition: 0.5s;
   
 }
@@ -2351,13 +2453,121 @@
 
 
 
+      /*pagina de politica*/
+
+      .title-politicas{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+      }
+
+      .art-politica{
+        width: 95%;
+        height: 100vh;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        
+      }
+
+      .politica{
+          width: 30%;
+          height: 90%;
+          display: flex;
+          align-items: center;
+          padding: 1rem;
+          background-color: #171717;
+      }
+
+      .politica p{
+        font-size: 1.5rem;
+        color: #b88703;
+      }
+
+      .politica-uso{
+        width: 70%;
+        height: 90%;
+        background-color: bisque;
+      }
+
+      .acordeon {
+        width: 100%;
+        
+        padding: 2rem;
+        color: var(--negro);
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        border-radius: 1rem;
+        background-color: #f3f3f3;
+        -webkit-box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+                box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+      }
+      
+      .acordeon .bloque {
+        margin: 0 0 1rem;
+        padding: 1rem;
+        color: var(--negro);
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        border-radius: 1rem;
+        background-color: var(--blanco);
+        -webkit-box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+                box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+      }
+      
+      .acordeon .h2 {
+        margin: 0 0 1rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+        color: var(--negro);
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        border-radius: 1rem;
+        background-color: var(--blanco);
+        -webkit-box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+                box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+        cursor: pointer;
+      }
+      .acordeon .h2:hover {
+        color: #b88703;
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        background-color: #171717;
+        -webkit-box-shadow: 0 0 0 transparent, 0 0 0 transparent, inset 0.4rem 0.4rem 0.8rem var(--sombra-ppal), inset -0.4rem -0.4rem 0.8rem var(--sombra-sec);
+                box-shadow: 0 0 0 transparent, 0 0 0 transparent, inset 0.4rem 0.4rem 0.8rem var(--sombra-ppal), inset -0.4rem -0.4rem 0.8rem var(--sombra-sec);
+      }
+      
+      .acordeon .contenido {
+        height: 0;
+        padding: 0rem;
+        overflow: hidden;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+      }
+      
+      .acordeon .bloque.activo .contenido {
+        height: auto;
+        font-size: 0.8rem;
+      }
 
 
 
 
 
 
-} 
+
+
+
+}
+
+
+
+
+
+
 @media(min-width:768px) and (max-width:992px){
     .header{
       width: 100%;
@@ -2366,8 +2576,8 @@
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
-      background-image: url(../assets/NavBar.png);
-      background-size: 100% 350px;
+      background-image: url(../assets/background-nav.png);
+      background-size: 100% 60vh;
       background-repeat: no-repeat;
 
     
@@ -3494,6 +3704,107 @@ border-radius: 0.8rem;
       }
 
 
+       /*pagina de politica*/
+
+       .title-politicas{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+      }
+
+      .art-politica{
+        width: 95%;
+        height: 100vh;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        
+      }
+
+      .politica{
+          width: 30%;
+          height: 90%;
+          display: flex;
+          align-items: center;
+          padding: 1rem;
+          background-color: #171717;
+      }
+
+      .politica p{
+        font-size: 1.5rem;
+        color: #b88703;
+      }
+
+      .politica-uso{
+        width: 70%;
+        height: 90%;
+        background-color: bisque;
+      }
+
+      .acordeon {
+        width: 100%;
+        
+        padding: 2rem;
+        color: var(--negro);
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        border-radius: 1rem;
+        background-color: #f3f3f3;
+        -webkit-box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+                box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+      }
+      
+      .acordeon .bloque {
+        margin: 0 0 1rem;
+        padding: 1rem;
+        color: var(--negro);
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        border-radius: 1rem;
+        background-color: var(--blanco);
+        -webkit-box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+                box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+      }
+      
+      .acordeon .h2 {
+        margin: 0 0 1rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+        color: var(--negro);
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        border-radius: 1rem;
+        background-color: var(--blanco);
+        -webkit-box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+                box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+        cursor: pointer;
+      }
+      .acordeon .h2:hover {
+        color: #b88703;
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        background-color: #171717;
+        -webkit-box-shadow: 0 0 0 transparent, 0 0 0 transparent, inset 0.4rem 0.4rem 0.8rem var(--sombra-ppal), inset -0.4rem -0.4rem 0.8rem var(--sombra-sec);
+                box-shadow: 0 0 0 transparent, 0 0 0 transparent, inset 0.4rem 0.4rem 0.8rem var(--sombra-ppal), inset -0.4rem -0.4rem 0.8rem var(--sombra-sec);
+      }
+      
+      .acordeon .contenido {
+        height: 0;
+        padding: 0rem;
+        overflow: hidden;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+      }
+      
+      .acordeon .bloque.activo .contenido {
+        height: auto;
+        font-size: 0.8rem;
+      }
+
+
 
 
 
@@ -3512,8 +3823,8 @@ border-radius: 0.8rem;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        background-image: url(../assets/NavBar.png);
-        background-size: 100% 150px;
+        background-image: url(../assets/background-nav.png);
+        background-size: 100% 25vh;
         background-repeat: no-repeat;
         
    }
@@ -4573,6 +4884,110 @@ border-radius: 0.8rem;
       
       }
 
+       /*pagina de politica*/
+
+       .title-politicas{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        font-size: 0.8rem;
+        align-items: center;
+        justify-content: center;
+       
+        
+      }
+
+      .art-politica{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+      }
+
+      .politica{
+          width: 90%;
+          height: 90%;
+          display: flex;
+          align-items: center;
+          padding: 1rem;
+          background-color: #171717;
+      }
+
+      .politica p{
+        font-size: 1.5rem;
+        color: #b88703;
+      }
+
+      .politica-uso{
+        width: 90%;
+        height: 90%;
+        background-color: bisque;
+      }
+
+      .acordeon {
+        width: 100%;
+        
+        padding: 2rem;
+        color: var(--negro);
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        border-radius: 1rem;
+        background-color: #f3f3f3;
+        -webkit-box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+                box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+      }
+      
+      .acordeon .bloque {
+        margin: 0 0 1rem;
+        padding: 1rem;
+        color: var(--negro);
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        border-radius: 1rem;
+        background-color: var(--blanco);
+        -webkit-box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+                box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+      }
+      
+      .acordeon .h2 {
+        margin: 0 0 1rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+        color: var(--negro);
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        border-radius: 1rem;
+        background-color: var(--blanco);
+        -webkit-box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+                box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+        cursor: pointer;
+      }
+      .acordeon .h2:hover {
+        color: #b88703;
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        background-color: #171717;
+        -webkit-box-shadow: 0 0 0 transparent, 0 0 0 transparent, inset 0.4rem 0.4rem 0.8rem var(--sombra-ppal), inset -0.4rem -0.4rem 0.8rem var(--sombra-sec);
+                box-shadow: 0 0 0 transparent, 0 0 0 transparent, inset 0.4rem 0.4rem 0.8rem var(--sombra-ppal), inset -0.4rem -0.4rem 0.8rem var(--sombra-sec);
+      }
+      
+      .acordeon .contenido {
+        height: 0;
+        padding: 0rem;
+        overflow: hidden;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+      }
+      
+      .acordeon .bloque.activo .contenido {
+        height: auto;
+        font-size: 0.8rem;
+      }
+
 
 
     
@@ -4590,8 +5005,8 @@ border-radius: 0.8rem;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-image: url(../assets/NavBar.png);
-    background-size: 100% 150px;
+    background-image: url(../assets/background-nav.png);
+    background-size: 100% 25vh;
     background-repeat: no-repeat;
     
 }
@@ -5648,6 +6063,109 @@ align-items: center;
    
     border-radius: 15px;
   
+  }
+
+   /*pagina de politica*/
+
+   .title-politicas{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    font-size: 0.8rem;
+    align-items: center;
+    justify-content: center;
+   
+    
+  }
+
+  .art-politica{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  }
+
+  .politica{
+      width: 90%;
+      height: 90%;
+      display: flex;
+      align-items: center;
+      padding: 1rem;
+      background-color: #171717;
+  }
+
+  .politica p{
+    font-size: 1.5rem;
+    color: #b88703;
+  }
+
+  .politica-uso{
+    width: 90%;
+    height: 90%;
+    background-color: bisque;
+  }
+
+  .acordeon {
+    width: 100%;
+    padding: 2rem;
+    color: var(--negro);
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    border-radius: 1rem;
+    background-color: #f3f3f3;
+    -webkit-box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+            box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  }
+  
+  .acordeon .bloque {
+    margin: 0 0 1rem;
+    padding: 1rem;
+    color: var(--negro);
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    border-radius: 1rem;
+    background-color: var(--blanco);
+    -webkit-box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+            box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  }
+  
+  .acordeon .h2 {
+    margin: 0 0 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: var(--negro);
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    border-radius: 1rem;
+    background-color: var(--blanco);
+    -webkit-box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+            box-shadow: 0.4rem 0.4rem 0.8rem var(--sombra-ppal), -0.4rem -0.4rem 0.8rem var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+    cursor: pointer;
+  }
+  .acordeon .h2:hover {
+    color: #b88703;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    background-color: #171717;
+    -webkit-box-shadow: 0 0 0 transparent, 0 0 0 transparent, inset 0.4rem 0.4rem 0.8rem var(--sombra-ppal), inset -0.4rem -0.4rem 0.8rem var(--sombra-sec);
+            box-shadow: 0 0 0 transparent, 0 0 0 transparent, inset 0.4rem 0.4rem 0.8rem var(--sombra-ppal), inset -0.4rem -0.4rem 0.8rem var(--sombra-sec);
+  }
+  
+  .acordeon .contenido {
+    height: 0;
+    padding: 0rem;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  
+  .acordeon .bloque.activo .contenido {
+    height: auto;
+    font-size: 0.8rem;
   }
 
    
