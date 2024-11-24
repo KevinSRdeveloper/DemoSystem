@@ -729,7 +729,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+   
 }
 
 .card .front h3 {
@@ -1996,7 +1996,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+   
 }
 
 .card .front h3 {
@@ -3252,7 +3252,7 @@ border-radius: 0.8rem;
     position: absolute;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    
 }
 
 .card .front h3 {
@@ -4463,7 +4463,7 @@ border-radius: 0.8rem;
       position: absolute;
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      
   }
   
   .card .front h3 {
@@ -5655,7 +5655,7 @@ align-items: center;
   position: absolute;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  
 }
 
 .card .front h3 {
