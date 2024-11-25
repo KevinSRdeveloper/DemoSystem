@@ -893,9 +893,7 @@
       line-height: 25px;
     }
 
-    .text-service h2{
-      color: #bac002;
-    }
+   
 
     .card-service{
       width: 95%;
@@ -2161,9 +2159,7 @@
       text-align: center;
       
     }
-    .text-service h2{
-      color: #bac002;
-    }
+   
 
     .text-service p{
       margin-top: 1.5rem;
@@ -4755,9 +4751,7 @@ border-radius: 0.8rem;
         box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
       }
 
-      .text-service h2{
-        color: #fae100;
-      }
+      
 
       
       .div-service-text p{
@@ -5832,9 +5826,7 @@ align-items: center;
     margin-top: 1rem;
   }
 
-  .text-service h2{
-    color: #bac002;
-  }
+
 
   .card-service{
     width: 95%;
