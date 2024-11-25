@@ -1032,6 +1032,8 @@
       
       }
 
+    
+
       .div-service-text p{
         width: 100%;
         font-size: 0.9em;
@@ -1045,8 +1047,8 @@
         font-size: 0.9em;
         letter-spacing: 1px;
         border-radius: 5px;
-        background-color: #171717;
-        color: #ffffff;
+        background-color: #FFDF00;
+        color: #171717;
       }
 
       .div-figure-img{
@@ -2310,9 +2312,7 @@
         padding: 0.8em;
       }  
 
-      .div-service-text h2{
-        color: #bac002 ;
-      }
+    
       
       .div-service-text h3{
         width: 80%;
@@ -2320,8 +2320,8 @@
         font-size: 0.9em;
         letter-spacing: 1px;
         border-radius: 5px;
-        background-color: #171717;
-        color: #ffffff;
+        background-color: #FFDF00;
+        color: #171717;
       }
 
       .div-figure-img{
@@ -3570,6 +3570,8 @@ border-radius: 0.8rem;
         font-size: 0.9em;
         line-height: 2vh;
       }  
+
+    
       
       .div-service-text h3{
         width: 80%;
@@ -3577,8 +3579,8 @@ border-radius: 0.8rem;
         font-size: 0.9em;
         letter-spacing: 1px;
         border-radius: 5px;
-        background-color: #171717;
-        color: #ffffff;
+        background-color: #FFDF00;
+        color: #171717;
       }
 
       .div-figure-img{
@@ -4754,7 +4756,7 @@ border-radius: 0.8rem;
       }
 
       .text-service h2{
-        color: #a7c800;
+        color: #fae100;
       }
 
       
@@ -4764,6 +4766,10 @@ border-radius: 0.8rem;
         line-height: 4vh;
         padding: 0.8em;
       }  
+
+      .div.sect-service h2{
+        color: #fae100;
+      }
       
       .div-service-text h3{
         width: 80%;
@@ -4771,8 +4777,8 @@ border-radius: 0.8rem;
         font-size: 0.9em;
         letter-spacing: 1px;
         border-radius: 5px;
-        background-color: #171717;
-        color: #ffffff;
+        background-color: #FFDF00;
+        color: #171717;
       }
 
       
@@ -5971,8 +5977,8 @@ align-items: center;
     font-size: 0.6em;
     letter-spacing: 1px;
     border-radius: 5px;
-    background-color: #171717;
-    color: #ffffff;
+    background-color: #FFDF00;
+        color: #171717;
   }
 
     .item-service-text-1{
