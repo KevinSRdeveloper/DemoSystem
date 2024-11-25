@@ -893,6 +893,10 @@
       line-height: 25px;
     }
 
+    .text-service h2{
+      color: #bac002;
+    }
+
     .card-service{
       width: 95%;
       height: auto;
@@ -1031,7 +1035,8 @@
       .div-service-text p{
         width: 100%;
         font-size: 0.9em;
-        line-height: 2vh;
+        line-height: 3vh;
+        padding: 0.8em;
       }  
       
       .div-service-text h3{
@@ -2154,6 +2159,9 @@
       text-align: center;
       
     }
+    .text-service h2{
+      color: #bac002;
+    }
 
     .text-service p{
       margin-top: 1.5rem;
@@ -2298,8 +2306,13 @@
       .div-service-text p{
         width: 100%;
         font-size: 0.9em;
-        line-height: 2vh;
+        line-height: 3vh;
+        padding: 0.8em;
       }  
+
+      .div-service-text h2{
+        color: #bac002 ;
+      }
       
       .div-service-text h3{
         width: 80%;
@@ -4426,7 +4439,7 @@ border-radius: 0.8rem;
 
   
     .cinta h2 {
-      font-size: 0.7rem;
+      font-size: 1em;
     }
 
     .card {
@@ -4572,13 +4585,16 @@ border-radius: 0.8rem;
       }
 
       .title-servicios h2{
-        font-size: 2em;
+        font-size: 1.8em;
+        padding: 1em;
         color: #eee;
       }
 
       .title-servicios p{
-        padding: 1rem;
+        padding: 0.8rem;
         color: #fff;
+        padding: 1em;
+        line-height: 4vh;
       }
 
       .sect-service{
@@ -4607,7 +4623,8 @@ border-radius: 0.8rem;
       }
 
       .text-service p{
-        margin-top: 1rem;
+        padding: 1.5em;
+        font-size: 0.9em;
       }
 
       .card-service{
@@ -4735,10 +4752,17 @@ border-radius: 0.8rem;
         background-color: #ffffff;
         box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
       }
+
+      .text-service h2{
+        color: #a7c800;
+      }
+
+      
       .div-service-text p{
         width: 100%;
         font-size: 0.9em;
-        line-height: 2vh;
+        line-height: 4vh;
+        padding: 0.8em;
       }  
       
       .div-service-text h3{
@@ -5800,6 +5824,10 @@ align-items: center;
 
   .text-service p{
     margin-top: 1rem;
+  }
+
+  .text-service h2{
+    color: #bac002;
   }
 
   .card-service{
