@@ -90,8 +90,8 @@
     height: 10vh;
     position: sticky;
     /* top: 0;  */
-    border-top: 3px solid #f6ff00fd;
-    border-bottom: 3px solid #f6ff00;
+    border-top: 3px solid #EABE3F;
+    border-bottom: 3px solid #EABE3F;
     background-color: #171717;
     z-index: 99;
 
@@ -139,13 +139,13 @@
     font-size: 1.8em;
     transition: 0.5s;
   
-    color: #f6ff00
+    color: #EABE3F;
 }
 
 
 .nav ul li a .text{
    
-    color: #f6ff00;
+    color: #EABE3F;
     font-weight: 400;
     font-size: 1em;
     letter-spacing: 0.05em;
@@ -401,7 +401,7 @@
   .thumbnail .item .content{
       position: absolute;
       inset: auto 10px 10px 10px;
-      color: #ffffff;
+      color:  #efb810;
   }
 
   .thumbnail{
@@ -531,7 +531,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 2px #b88703 solid;
+  border-top: 2px #EABE3F solid;
   background-color: #171717;
   color: #eee;
   font-size: 0.5em;
@@ -1026,7 +1026,7 @@
         padding: 1rem;
         background-color: #ffffff;
         
-        box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 17px 0px #EABE3F;
       
       }
 
@@ -1045,7 +1045,7 @@
         font-size: 0.9em;
         letter-spacing: 1px;
         border-radius: 5px;
-        background-color: #FFDF00;
+        background-color: #EABE3F;
         color: #171717;
       }
 
@@ -1365,8 +1365,8 @@
     height: 10vh;
     position: sticky;
     /* top: 0;  */
-    border-top: 2px solid #f8f81a;
-    border-bottom: 2px solid #FFFF00;
+    border-top: 2px solid #efb810;
+    border-bottom: 2px solid #efb810;
     background-color: #171717;
     z-index: 99;
 
@@ -1413,13 +1413,13 @@
     position: relative;
     font-size: 1.5em;
     transition: 0.5s;
-    color: #f6ff00
+    color: #efb810;
 }
 
 
 .nav ul li a .text{
    
-    color: #f6ff00;
+    color: #efb810;
     font-weight: 400;
     font-size: 0.9em;
     letter-spacing: 0.05em;
@@ -1674,7 +1674,7 @@
   .thumbnail .item .content{
       position: absolute;
       inset: auto 10px 10px 10px;
-      color: #ffffff;
+      color: #efb810;
   }
 
   .thumbnail{
@@ -1803,7 +1803,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 2px #b88703 solid;
+  border-top: 2px #efb810 solid;
   background-color: #171717;
   color: #eee;
   font-size: 0.5em;
@@ -2297,7 +2297,7 @@
         padding: 1rem;
         background-color: #ffffff;
         
-        box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 17px 0px #EABE3F;
       
       }
 
@@ -2316,7 +2316,7 @@
         font-size: 0.9em;
         letter-spacing: 1px;
         border-radius: 5px;
-        background-color: #FFDF00;
+        background-color: #EABE3F;
         color: #171717;
       }
 
@@ -2640,8 +2640,8 @@
     height: 8vh;
     position: sticky;
     /* top: 0;  */
-    border-top: 2px solid #f8f81a;
-    border-bottom: 2px solid #FFFF00;
+    border-top: 2px solid #efb810;
+    border-bottom: 2px solid #efb810;
     background-color: #171717;
  
     z-index: 99;
@@ -2689,13 +2689,13 @@
     position: relative;
     font-size: 1em;
     transition: 0.5s;
-    color: #f6ff00;
+    color: #efb810;
 }
 
 
 .nav ul li a .text{
    
-    color: #f6ff00;
+    color: #efb810;
     font-weight: 400;
     font-size: 0.75em;
     letter-spacing: 0.05em;
@@ -2938,7 +2938,7 @@ border-radius: 0.8rem;
   .thumbnail .item .content{
       position: absolute;
       inset: auto 10px 10px 10px;
-      color: #ffffff;
+      color: #efb810;
   }
 
   .thumbnail{
@@ -2963,7 +2963,7 @@ border-radius: 0.8rem;
     
 }
 .sect-text-serv{
-  width: 40%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -3063,7 +3063,7 @@ border-radius: 0.8rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 2px #b88703 solid;
+  border-top: 2px #efb810 solid;
   background-color: #171717;
   
   color: #eee;
@@ -3557,7 +3557,7 @@ border-radius: 0.8rem;
         padding: 1rem;
         background-color: #ffffff;
         
-        box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 17px 0px #EABE3F;
       
       }
 
@@ -3575,7 +3575,7 @@ border-radius: 0.8rem;
         font-size: 0.9em;
         letter-spacing: 1px;
         border-radius: 5px;
-        background-color: #FFDF00;
+        background-color: #EABE3F;
         color: #171717;
       }
 
@@ -3897,8 +3897,8 @@ border-radius: 0.8rem;
         width: 100%;
         height: 8vh;
         position: sticky;
-        border-top: 2px solid #f8f81a;
-        border-bottom: 2px solid #FFFF00;
+        border-top: 2px solid #efb810;
+        border-bottom: 2px solid #efb810;
         background-color: #171717;
         box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
         z-index: 99;
@@ -3938,7 +3938,7 @@ border-radius: 0.8rem;
         
         font-size: 0.8em;
         transition: 0.5s;
-        color: #f6ff00;
+        color: #efb810;
     }
 
     .nav ul li:hover a .icon{
@@ -3948,7 +3948,7 @@ border-radius: 0.8rem;
 
     .nav ul li a .text{
         position: absolute;
-        color: #f6ff00;
+        color: #efb810;
         font-weight: 400;
         font-size: 0.55em;
         letter-spacing: 0.05em;
@@ -4180,7 +4180,7 @@ border-radius: 0.8rem;
     .thumbnail .item .content{
         position: absolute;
         inset: auto 10px 10px 10px;
-        color: #bdbdbd;
+        color: #efb810;
     }
 
     .thumbnail{
@@ -4275,14 +4275,16 @@ border-radius: 0.8rem;
         justify-content: space-evenly;
         align-items: center;
         text-align: center;
-        border-top: 2px #b88703 solid;
-      background-color: #171717;
+        border-top: 2px #efb810 solid;
+        background-color: #171717;
         color: #eee;
     }
 
     .footer-colum{
         width: 90%;
         height: 100%;
+        font-size: 0.8em;
+
        
     }
 
@@ -4295,6 +4297,7 @@ border-radius: 0.8rem;
     .footer-colum li a{
         text-decoration: none;
         color: #eee;
+        font-size: 0.5em;
     }
 
     .icon-footer{
@@ -4748,7 +4751,7 @@ border-radius: 0.8rem;
         justify-content: center;
         gap: 15px;
         background-color: #ffffff;
-        box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 17px 0px #EABE3F;
       }
 
       
@@ -4771,7 +4774,7 @@ border-radius: 0.8rem;
         font-size: 0.9em;
         letter-spacing: 1px;
         border-radius: 5px;
-        background-color: #FFDF00;
+        background-color: #EABE3F;
         color: #171717;
       }
 
@@ -5107,8 +5110,8 @@ object-fit: contain;
   width: 100%;
   height: 8vh;
   position: sticky;
-  border-top: 2px solid #f8f81a;
-  border-bottom: 2px solid #FFFF00;
+  border-top: 2px solid #efb810;
+  border-bottom: 2px solid #efb810;
   background-color: #171717;
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
   z-index: 99;
@@ -5148,7 +5151,7 @@ object-fit: contain;
     
     font-size: 1em;
     transition: 0.5s;
-    color: #f6ff00;
+    color: #efb810;
 }
 
 .nav ul li:hover a .icon{
@@ -5158,7 +5161,7 @@ object-fit: contain;
 
 .nav ul li a .text{
     position: absolute;
-    color: #f6ff00;
+    color: #efb810;
     font-weight: 400;
     font-size: 0.75em;
     letter-spacing: 0.05em;
@@ -5385,7 +5388,7 @@ object-fit: contain;
 .thumbnail .item .content{
     position: absolute;
     inset: auto 10px 10px 10px;
-    color: #bdbdbd;
+    color: #efb810;
 }
 
 .thumbnail{
@@ -5480,7 +5483,7 @@ object-fit: contain;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    border-top: 2px #b88703 solid;
+    border-top: 2px #efb810 solid;
   background-color: #171717;
     color: #eee;
 }
@@ -5488,6 +5491,8 @@ object-fit: contain;
 .footer-colum{
     width: 90%;
     height: 100%;
+    font-size: 0.5em;
+    padding: 0.2em;
    
 }
 
@@ -5500,6 +5505,7 @@ object-fit: contain;
 .footer-colum li a{
     text-decoration: none;
     color: #eee;
+    font-size: 0.5em;
 }
 
 .icon-footer{
@@ -5954,7 +5960,7 @@ align-items: center;
 
     background-color: #ffffff;
    
-    box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 17px 0px #EABE3F;
   }
 
   .div-service-text p{
@@ -5969,7 +5975,7 @@ align-items: center;
     font-size: 0.6em;
     letter-spacing: 1px;
     border-radius: 5px;
-    background-color: #FFDF00;
+    background-color: #EABE3F;
         color: #171717;
   }
 
