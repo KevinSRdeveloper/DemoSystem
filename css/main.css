@@ -1130,12 +1130,14 @@
         flex-direction: column;
         justify-content: center;
         padding: 1em;
-        background-color: rgba(2, 22, 62, 0.881);
+        
+        box-shadow: 0px 0px 17px 0px #EABE3F;
       }
 
       .contac-info li{
         list-style: none;
-        color: #ffffff;
+        color: #EABE3F;
+       
         margin: 0.8em 0;
       }
       .contact-mensaje{
@@ -1145,10 +1147,12 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        background-color: #004c7e;
+        background-color: #121212;
         color: #ffffff;
         line-height: 5vh;
         padding: 1.5em;
+        color: #EABE3F;
+        box-shadow: 0px 0px 17px 0px #EABE3F;
       }
 
       .form-contact{
@@ -1158,6 +1162,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        box-shadow: 0px 0px 17px 0px #EABE3F;
       }
 
       .grupo-inputs{
@@ -1213,9 +1218,8 @@
         background: none;
         border: none;
         outline: none;
-        background-color: #004c7e;
-        color: #eee;
-       
+        background-color: #EABE3F;
+        color: #121212;
         border-radius: 15px;
       
       }
@@ -2416,12 +2420,12 @@
         flex-direction: column;
         justify-content: center;
         padding: 1em;
-        background-color: rgba(2, 22, 62, 0.881);
+        box-shadow: 0px 0px 17px 0px #EABE3F;
       }
 
       .contac-info li{
         list-style: none;
-        color: #ffffff;
+        color: #EABE3F;
         margin: 0.8em 0;
       }
       .contact-mensaje{
@@ -2431,8 +2435,9 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        background-color: #004c7e;
-        color: #ffffff;
+        color: #EABE3F;
+        background-color: #121212;
+        box-shadow: 0px 0px 17px 0px #EABE3F;
         line-height: 5vh;
         padding: 1.5em;
       }
@@ -2444,6 +2449,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        box-shadow: 0px 0px 17px 0px #EABE3F;
       }
 
       .grupo-inputs{
@@ -2499,9 +2505,8 @@
         background: none;
         border: none;
         outline: none;
-        background-color: #004c7e;
-        color: #eee;
-       
+        background-color: #EABE3F;
+        color: #121212; 
         border-radius: 15px;
       
       }
@@ -3694,14 +3699,15 @@ border-radius: 0.8rem;
         justify-content: center;
         align-items: center;
         padding: 1em;
-        background-color: rgba(2, 22, 62, 0.881);
+        box-shadow: 0px 0px 17px 0px #EABE3F;
+
         overflow-y: auto;
 
     }
 
       .contac-info li{
         list-style: none;
-        color: #ffffff;
+        color: #EABE3F;
         margin: 0.8em 0;
       }
       .contact-mensaje{
@@ -3711,10 +3717,11 @@ border-radius: 0.8rem;
         justify-content: center;
         align-items: center;
         text-align: center;
-        background-color: #004c7e;
-        color: #ffffff;
+        background-color: #121212;
+        color: #EABE3F;
         line-height: 5vh;
         padding: 1.5em;
+        box-shadow: 0px 0px 17px 0px #EABE3F;
       }
 
       .form-contact{
@@ -3724,10 +3731,11 @@ border-radius: 0.8rem;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        box-shadow: 0px 0px 17px 0px #EABE3F;
       }
 
       .grupo-inputs{
-        width: 50%;
+        width: 80%;
         height: 10vh;
         display: flex;
         align-items: center;
@@ -3780,8 +3788,8 @@ border-radius: 0.8rem;
         background: none;
         border: none;
         outline: none;
-        background-color: #004c7e;
-        color: #eee;
+        background-color: #EABE3F;
+        color: #121212;
        
         border-radius: 15px;
       
@@ -4353,7 +4361,7 @@ border-radius: 0.8rem;
     .footer-colum li a{
         text-decoration: none;
         color: #eee;
-        font-size: 0.5em;
+        font-size: 0.8em;
     }
 
     .icon-footer{
@@ -4918,14 +4926,15 @@ border-radius: 0.8rem;
         justify-content: center;
         align-items: center;
         padding: 1em;
-        background-color: rgba(2, 22, 62, 0.881);
+        box-shadow: 0px 0px 17px 0px #EABE3F;
+
         overflow-y: auto;
 
     }
 
       .contac-info li{
         list-style: none;
-        color: #ffffff;
+        color: #EABE3F;
         margin: 0.8em 0;
         font-size: 0.8em;
       }
@@ -4936,8 +4945,8 @@ border-radius: 0.8rem;
         justify-content: center;
         align-items: center;
         text-align: center;
-        background-color: #004c7e;
-        color: #ffffff;
+        background-color: #121212;
+        color: #EABE3F;
         line-height: 5vh;
         padding: 1.5em;
         font-size: 0.8em;
@@ -4950,6 +4959,8 @@ border-radius: 0.8rem;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        box-shadow: 0px 0px 17px 0px #EABE3F;
+
       }
 
       .grupo-inputs{
@@ -5006,8 +5017,8 @@ border-radius: 0.8rem;
         background: none;
         border: none;
         outline: none;
-        background-color: #004c7e;
-        color: #eee;
+        background-color: #EABE3F;
+        color: #121212;
        
         border-radius: 15px;
       
@@ -6140,14 +6151,14 @@ align-items: center;
     justify-content: center;
     align-items: center;
     padding: 1em;
-    background-color: rgba(2, 22, 62, 0.881);
+    box-shadow: 0px 0px 17px 0px #EABE3F;
     overflow-y: auto;
 
 }
 
   .contac-info li{
     list-style: none;
-    color: #ffffff;
+    color: #EABE3F;
     margin: 0.8em 0;
     font-size: 0.8em;
   }
@@ -6158,11 +6169,13 @@ align-items: center;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #004c7e;
-    color: #ffffff;
+    background-color: #121212;
+    color: #EABE3F;
     line-height: 5vh;
     padding: 1.5em;
     font-size: 0.8em;
+    box-shadow: 0px 0px 17px 0px #EABE3F;
+
   }
 
   .form-contact{
@@ -6172,6 +6185,8 @@ align-items: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-shadow: 0px 0px 17px 0px #EABE3F;
+
   }
 
   .grupo-inputs{
@@ -6228,8 +6243,8 @@ align-items: center;
     background: none;
     border: none;
     outline: none;
-    background-color: #004c7e;
-    color: #eee;
+    background-color: #EABE3F;
+    color: #121212;
    
     border-radius: 15px;
   
