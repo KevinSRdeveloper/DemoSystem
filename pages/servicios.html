@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/main.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <title>SystemWorkShop</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/main.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="../js/particles.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <title>SystemWorkShop</title>
 </head>
 <body>
 
-   <!-- Header logo -->
-    <header class="header">
-      <figure class="header-figure">
-          <img src="../assets/Img/header-system.png" alt="SystemWorkShop">
+    <!-- Header logo -->
+    <header class="header header-banner">
+      <figure class="header-figure banner">
+        <div class="particles-banner" id="particles-js"></div>
+          <img src="../assets/Img/banner2.png" alt="SystemWorkShop">
+          <div class="banner-text">
+              <h2><span class="text-yellow">System</span>WorkShop</h2>
+              <p>Cuidad tu computadora y lleva tu rendimiento max</p>
+          </div>
       </figure>    
     </header>
       <!-- Barra de navegacion -->
@@ -64,7 +69,7 @@
 
 
      <section class="sect-service">
-        <article class="art-service" style="background-image: linear-gradient(rgba(255, 255, 255, 0.707), rgba(255, 255, 255, 0.5)), url('../assets/Img/img-servicios.webp');background-size: 100%;">
+        <article class="art-service" style="background-image: linear-gradient(rgba(255, 255, 255, 0.707), rgba(255, 255, 255, 0.5)), url('../assets/Img/img-servicios.webp');background-size: 100%; background-repeat: no-repeat;">
             <div class="text-service">
                 <h2>Creando Experiencias para Disfrutar al Máximo</h2>
                 <p>Formamos parte de un emocionante proceso donde todo un equipo se esfuerza por ofrecer servicios y productos a domicilio, permitiendo que las personas celebren, vivan, trabajen, jueguen y disfruten al máximo sin salir de casa.</p>
@@ -405,10 +410,134 @@
 
     </div>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+  
 </footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+
+<script>
+  particlesJS(
+      {
+      "particles": {
+          "number": {
+          "value": 53,
+          "density": {
+              "enable": true,
+              "value_area": 800
+          }
+          },
+          "color": {
+          "value": "#000"
+          },
+          "shape": {
+          "type": "circle",
+          "stroke": {
+              "width": 0,
+              "color": "#000000"
+          },
+          "polygon": {
+              "nb_sides": 5
+          },
+          "image": {
+              "src": "img/github.svg",
+              "width": 100,
+              "height": 100
+          }
+          },
+          "opacity": {
+          "value": 0.5,
+          "random": false,
+          "anim": {
+              "enable": false,
+              "speed": 1,
+              "opacity_min": 0.1,
+              "sync": false
+          }
+          },
+          "size": {
+          "value": 3,
+          "random": true,
+          "anim": {
+              "enable": false,
+              "speed": 40,
+              "size_min": 0.1,
+              "sync": false
+          }
+          },
+          "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#000",
+          "opacity": 0.4,
+          "width": 1
+          },
+          "move": {
+          "enable": true,
+          "speed": 6,
+          "direction": "none",
+          "random": false,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+              "enable": false,
+              "rotateX": 600,
+              "rotateY": 1200
+          }
+          }
+      },
+      "interactivity": {
+          "detect_on": "canvas",
+          "events": {
+          "onhover": {
+              "enable": true,
+              "mode": "grab"
+          },
+          "onclick": {
+              "enable": true,
+              "mode": "push"
+          },
+          "resize": true
+          },
+          "modes": {
+          "grab": {
+              "distance": 400,
+              "line_linked": {
+              "opacity": 1
+              }
+          },
+          "bubble": {
+              "distance": 400,
+              "size": 40,
+              "duration": 2,
+              "opacity": 8,
+              "speed": 3
+          },
+          "repulse": {
+              "distance": 200,
+              "duration": 0.4
+          },
+          "push": {
+              "particles_nb": 4
+          },
+          "remove": {
+              "particles_nb": 2
+          }
+          }
+      },
+      "retina_detect": true
+      }
+  )
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
+
 </html>
